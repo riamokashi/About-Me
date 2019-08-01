@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Past</title>
+    <link rel="stylesheet" href="/css/past.css">
+    <script type="text/javascript" src="jquery.js"></script>
+    <script type="text/javascript">
+    function scrollto(div)
+    {
+    $('html,body').animate(
+    {
+    scrollTop: $("#"+div).offset().top
+    },'slow');
+    }
+</script>
+</head>
+<body>
+    <div id="header">
+      <li id="site_name">Past Experiences</li>
+      <li onclick="scrollto('home');">HIGHSCHOOL</li>
+      <li onclick="scrollto('about');">GOOGLE</li>
+      <li onclick="scrollto('contact');">CONTACT</li>
+    </div>
+
+    <div id="highschool">
+      <img src="https://www.iamacomb.org/downloads/logos/iam-bluelogo.png" height:75px width:150px>
+    </div>
+
+    <div id="google">
+      <img src="http://techfutures.org/wp-content/uploads/2016/01/cssi-2.jpg" height:75px width:150px>
+    </div>
+
+    <div id="contact">
+      <h1>Contact me</h1> <a href="mailto:riamokashi72@gmail.com">Ria Mokashi</a><br>
+      <a href="https://ibb.co/qJxPF2F"><img src="https://i.ibb.co/HhXkp9p/Screen-Shot-2019-08-01-at-12-58-52-PM.png" alt="Screen-Shot-2019-08-01-at-12-58-52-PM" height=100px, width=80px></a>
+      <br>
+    </div>
+<a href="/">Home</a>
+  </body>
+</html>

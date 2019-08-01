@@ -1,0 +1,49 @@
+body{
+ margin:0px auto;
+ padding:0px;
+ text-align:center;
+ width:100%;
+ font-family: "Myriad Pro","Helvetica Neue",Helvetica,Arial,Sans-Serif;
+ background-color: #e57787;
+}
+#header{
+ width:100%;
+ margin:0px auto;
+ padding:0px;
+ text-align:center;
+ height:70px;
+ line-height:70px;
+}
+#header li{
+ display:inline-block;
+ margin-right:25px;
+ font-size:17px;
+ color:lightpink;
+ font-weight:bold;
+ cursor:pointer;
+}
+#header #site_name{
+ text-align:left;
+ width:680px;
+ font-size:35px;
+ margin-left:20px;
+}
+#highschool{
+  width:100%;
+  margin:0px auto;
+  padding:0px;
+  text-align:center;
+  height:70px;
+  line-height:70px;
+}
+#highschool,#google,#contact{
+  margin-top:100px;
+  width:90%;
+  height:400px;
+  margin-left:5%;
+  padding:50px;
+  box-sizing:border-box;
+  background-color: pink;
+  border-radius:10px;
+  color:white;
+}
